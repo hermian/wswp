@@ -8,7 +8,7 @@ except ImportError:
     from PyQt4.QtCore import *
     from PyQt4.QtWebKit import *
 
-url = 'http://example.webscraping.com/dynamic'
+url = 'http://example.webscraping.com/places/default/dynamic'
 app = QApplication([])
 webview = QWebView()
 loop = QEventLoop()

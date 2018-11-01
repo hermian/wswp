@@ -2,7 +2,7 @@ import requests
 from lxml.html import fromstring
 
 
-LOGIN_URL = 'http://example.webscraping.com/user/login'
+LOGIN_URL = 'http://example.webscraping.com/places/default/user/login'
 LOGIN_EMAIL = 'example@webscraping.com'
 LOGIN_PASSWORD = 'example'
 

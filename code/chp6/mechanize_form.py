@@ -1,6 +1,6 @@
 import mechanize
 
-LOGIN_URL = 'http://example.webscraping.com/user/login'
+LOGIN_URL = 'http://example.webscraping.com/places/default/user/login'
 LOGIN_EMAIL = 'example@webscraping.com'
 LOGIN_PASSWORD = 'example'
 COUNTRY_URL = 'http://example.webscraping.com/edit/United-Kingdom-239'

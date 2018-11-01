@@ -4,7 +4,7 @@ import requests
 
 PAGE_SIZE = 1000
 
-template_url = 'http://example.webscraping.com/ajax/' + \
+template_url = 'http://example.webscraping.com/places/ajax' + \
     'search.json?page=0&page_size={}&search_term=.'
 
 resp = requests.get(template_url.format(PAGE_SIZE))

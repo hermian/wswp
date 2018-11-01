@@ -7,7 +7,7 @@ from chp6.login import parse_form
 from chp7.image_processing import get_captcha_img, get_b64_string
 
 API_URL = 'https://www.9kw.eu/index.cgi'
-REGISTER_URL = 'http://example.webscraping.com/user/register'
+REGISTER_URL = 'http://example.webscraping.com/places/default/user/register'
 
 
 def get_api_key():
@@ -62,7 +62,7 @@ def register(first_name, last_name, email, password):
     print('captcha solve:', captcha)
     form['recaptcha_response_field'] = captcha
     resp = session.post(html.url, form)
-    success = '/user/register' not in resp.url
+    success = '/places/default/user/register' not in resp.url
     if not success:
         form_errors = fromstring(resp.content).cssselect('div.error')
         print('Form Errors:')

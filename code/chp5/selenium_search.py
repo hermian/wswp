@@ -1,7 +1,7 @@
 from selenium import webdriver
 
 driver = webdriver.Firefox()
-driver.get('http://example.webscraping.com/search')
+driver.get('http://example.webscraping.com/places/default/search')
 driver.find_element_by_id('search_term').send_keys('.')
 js = "document.getElementById('page_size').options[1].text = '1000';"
 driver.execute_script(js)

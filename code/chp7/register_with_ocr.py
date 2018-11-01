@@ -5,7 +5,7 @@ from lxml.html import fromstring
 from chp6.login import parse_form
 from chp7.image_processing import get_captcha_img, img_to_bw
 
-REGISTER_URL = 'http://example.webscraping.com/user/register'
+REGISTER_URL = 'http://example.webscraping.com/places/default/user/register'
 
 
 def register(first_name, last_name, email, password):

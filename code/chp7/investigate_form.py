@@ -1,7 +1,7 @@
 import requests
 from chp6.login import parse_form
 
-REGISTER_URL = 'http://example.webscraping.com/user/register'
+REGISTER_URL = 'http://example.webscraping.com/places/default/user/register'
 
 session = requests.Session()
 

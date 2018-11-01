@@ -75,7 +75,7 @@ class BrowserRender(QWebView):
 
 def main():
     br = BrowserRender()
-    br.open('http://example.webscraping.com/search')
+    br.open('http://example.webscraping.com/places/default/search')
     br.attr('#search_term', 'value', '.')
     br.text('#page_size option:checked', '1000')
     br.click('#search')

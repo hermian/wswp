@@ -5,7 +5,7 @@ from chp6.login import parse_form
 from chp7.image_processing import get_captcha_img
 from chp7.captcha_api import CaptchaAPI
 
-REGISTER_URL = 'http://example.webscraping.com/user/register'
+REGISTER_URL = 'http://example.webscraping.com/places/default/user/register'
 
 
 def get_api_key():

@@ -3,7 +3,7 @@ import string
 
 PAGE_SIZE = 10
 
-template_url = 'http://example.webscraping.com/ajax/' + \
+template_url = 'http://example.webscraping.com/places/ajax' + \
     'search.json?page={}&page_size={}&search_term={}'
 
 countries = set()

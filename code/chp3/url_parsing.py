@@ -11,7 +11,7 @@ print(filename)
 # how to handle edge case where we need to append index.html for parent urls
 # such as http://example.webscraping.com/index/
 
-components = urlsplit('http://example.webscraping.com/index/')
+components = urlsplit('http://example.webscraping.com/places/default/index/')
 print(components)
 print(components.path)
 path = components.path
