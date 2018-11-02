@@ -4,7 +4,7 @@ Welcome to the code repository for [Web Scraping with Python, Second Edition](ht
 
 ### Code Structure
 
-All of the code samples are in folders separated by chapter. Scripts are intended to be run from the `code` folder, allowing you to easily import from the chapters. 
+All of the code samples are in folders separated by chapter. Scripts are intended to be run from the `code` folder, allowing you to easily import from the chapters.
 
 ### Code Examples
 
@@ -30,7 +30,7 @@ import sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir)))
 ```
 
-What this does is append the main module to your system path, which is where Python looks for imports. On some installations, I have noticed the current directory is not immediately added (common practice), so this code *explicitly* adds that directory to your path. 
+What this does is append the main module to your system path, which is where Python looks for imports. On some installations, I have noticed the current directory is not immediately added (common practice), so this code *explicitly* adds that directory to your path.
 
 
 ### Corrections?
@@ -45,3 +45,8 @@ If you are looking for the first edition's repository, you can find it here: [We
 ### Questions?
 
 Reach out to @kjam on Twitter or GitHub. @kjam is also often on freenode. :)
+
+
+### Modified (@knight76)
+
+Some code is modified for current example site with Python 3.7 support.
