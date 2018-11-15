@@ -37,7 +37,7 @@ class BrowserRender(QWebView):
             return self.html()
         else:
             # timed out
-            print 'Request timed out:', url
+            print('Request timed out:', url)
 
     def html(self):
         """Shortcut to return the current HTML"""
