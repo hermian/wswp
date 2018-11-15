@@ -31,8 +31,8 @@ class DiskCache:
         components = urlsplit(url)
         # append index.html to empty paths
         path = components.path
-        if not path:
-            path = '/index.html'
+        if not path.endswith('/'):
+            path += '/index.html'
         elif path.endswith('/'):
             path += 'index.html'
         filename = components.netloc + path + components.query
