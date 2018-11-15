@@ -62,6 +62,9 @@ def scrape_callback(url, html):
               'continent', 'tld', 'currency_code', 'currency_name',
               'phone', 'postal_code_format', 'postal_code_regex',
               'languages', 'neighbours')
+    if "login" in url or "register" in url:
+        return
+
     if re.search('/view/', url):
         tree = fromstring(html)
         all_rows = [

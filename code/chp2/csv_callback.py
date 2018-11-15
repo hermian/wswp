@@ -13,6 +13,9 @@ class CsvCallback:
         self.writer.writerow(self.fields)
 
     def __call__(self, url, html):
+        if "login" in url or "register" in url:
+            return
+
         if re.search('/view/', url):
             tree = fromstring(html)
             all_rows = [
