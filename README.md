@@ -1,3 +1,5 @@
+파이썬 웹 스크래핑 2/e 에이콘 책 한국 번역자 python 3.7
+
 ## Web Scraping with Python
 
 Welcome to the code repository for [Web Scraping with Python, Second Edition](https://www.packtpub.com/big-data-and-business-intelligence/python-web-scraping-second-edition)! I hope you find the code and data here useful. If you have any questions reach out to @kjam on Twitter or GitHub.
